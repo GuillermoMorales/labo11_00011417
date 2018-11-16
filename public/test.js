@@ -46,7 +46,7 @@ tasks(); //mostrar todoas las tareas
                             .catch(error => console.error('Error:', error))
                             .then(function (response) {
                                 console.log({ "Success": response.message });
-                                //document.querySelector()
+                                document.querySelector()
                                 tasks();
                             });
                     });
@@ -90,7 +90,7 @@ tasks(); //mostrar todoas las tareas
                                     });
                                 });
 
-                                /*Metod para actualizar */
+                                /*Metodo para actualizar */
                                 //buscar un producto
                                 let updates = document.querySelectorAll(".update");
 

@@ -16,7 +16,7 @@
                         </header>
                         <div class="row mt-5 ml-5 container">
                             <div class="col-md-6">
-                                <h2 class="text-center">Ingreso de Tareas
+                                <h2 class="text-center">Ingreso de Tareas</h2>
                                 <form method="POST" id="addTask" name="addTask">
                                     <div class="form-group">
                                         <input type="text" placeholder="Ingrese su tarea" name="task" class="form-control" required>
@@ -31,10 +31,10 @@
                                     <table class="table table-bordered table-sm">
                                         <thead>
                                             <tr>
-                                            <th>Id
-                                            <th>Tarea
-                                            <th>Fecha Realizada
-                                            <th>Opciones
+                                            <th>Id </th>
+                                            <th>Tarea </th>
+                                            <th>Fecha Realizada </th>
+                                            <th>Opciones </th>
                                             </tr>
                                         </thead>
                                         <tbody id="tareas">
@@ -48,9 +48,9 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLable">Actualizar
+                                        <h5 class="modal-title" id="exampleModalLable">Actualizar</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                                        ×
+                                        <span aria-hidden="true">×</span>
                                         </button>
                                     </div>
                                 <form method="post" id="updateTask" name="updateTask">
@@ -64,8 +64,8 @@
                                         </div>
                                     </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
-                                    <button type="submit" class="btn btn-primary">Actualizar
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary">Actualizar</button>
                                 </div>
                             </form>
                                 </div>
